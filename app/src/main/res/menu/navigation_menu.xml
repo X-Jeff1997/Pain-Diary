@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home_fragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/nav_entry_fragment"
+        android:title="Pain Data Entry"
+        android:icon="@drawable/ic_enter_add"/>
+    <item
+        android:id="@+id/nav_record_fragment"
+        android:title="Daily Record"
+        android:icon="@drawable/ic_history" />
+    <item
+        android:id="@+id/nav_report_fragment"
+        android:title="Report"
+        android:icon="@drawable/ic_chart" />
+    <item
+        android:id="@+id/nav_map_fragment"
+        android:title="Map"
+        android:icon="@drawable/ic_map"/>
+</menu>
